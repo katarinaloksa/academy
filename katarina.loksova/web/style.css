@@ -1,0 +1,33 @@
+body{
+    background:antiquewhite;
+}
+img{border:1px solid darkblue;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+header h3{
+    color: blue;
+}
+h4{
+    color:darkblue;
+}
+hr{
+    border-top: 1px solid red;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: lightskyblue;
+}
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    list-style-type: square;
+}
+
+div.photo{
+    min-width: 250px;
+}

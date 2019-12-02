@@ -1,0 +1,43 @@
+body {
+    background-color: blanchedalmond;
+}
+hr{
+    border-top: 1px solid brown;
+}
+h3{
+    color: chocolate;
+}
+h5{
+    color: crimson;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: linen;
+}
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+img {
+    border: 1px solid chocolate;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    min-width: 250px;
+}
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 0%;
+        width: 100%;
+        background-color: white;
+        color: black;
+    }
+    .img{
+        display: none;
+    }
+}
